@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ilianna Website</title>
+       <link rel="icon" type="image/x-icon" href="IRfav.png">
+       <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+  </head>
+  
+  <body>
+<!-- navbar bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand nav-link-active text-muted" href="#">Home</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-info" aria-current="page" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+
+    
+<!-- Main Image and Intro BootStrap -->
+      <section id="intro">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-2 text-info">Ilianna </div>
+                <div class="display-4 text-muted">Rivera</div>
+                <div class="h6">Website Developer</div>
+              </h1>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <img class="img-fluid" src="media/iliphoto1.jpg" alt="photogirl">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="item left">
+        <div class="item__content">
+          <h1>Mission:</h1>
+          <p>The mission of this site is to showcase the skills I've acquired from the C1 website development course. </p>
+          </div>
+      </section>
+      
+      <article class="item right">
+        <div class="item__content">
+          <h2>My Journey</h2>
+          <p>My journey to becoming a web developer started during the MySpace days. I enjoyed using code to build my site and I missed not being able to bring that creativity to webpages anymore.
+          Since then I've gained 2 degrees, become a mother, and found myself working part-time at Amazon. I am now coming back around and hoping to learn new skills in web development.</p>
+          <p> So far we have learned some HTML and started working on CSS. I'm excited to continue to design this page</p>
+        
+    <div class="container">
+    <div class="project-heading">
+      <h3 class="title">Some Memories</h3>
+      <div class="subtitle">Click the buttons to change the image!</div>
+    </div>
+
+    <div id="slider">
+      <img src="media/fam.jpg" alt="Image 1">
+      <img src="media/hike.jpg" alt="Image 2">
+      <img src="media/squiggle.jpg" alt="Image 3">
+      <img src="media/ucsc.jpg" alt="Image 4">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+      </div>
+    </div>
+  </div>      
+
+    </article>
+
+
+    <div class="projects">My Projects</div><br>
+    <section class="containers">
+      
+      <div class="card">
+        <div class="card-image card-1"></div> 
+        <h4>Age Calculator</h4>
+        <p>An age calculator that tells your age when you input your date of birth.</p>
+        <a href="https://irivera32.github.io/age-/">CLICK HERE</a>
+      </div>
+      <div class="card">
+        <div class="card-image card-2"></div> 
+        <h4>Dark/Light Toggle</h4>
+        <p>A toggle effect to change views from dark mode to light mode </p>
+        <a href="https://irivera32.github.io/darktoggle/">CLICK HERE</a>
+      </div>
+      <div class="card">
+        <div class="card-image card-3"></div> 
+        <h4>To-Do List</h4>
+        <p>A way to keep your to do list organized.</p>
+        <a href="https://irivera32.github.io/todo/">CLICK HERE</a>
+      </div>
+      <div class="card">
+        <div class="card-image card-4"></div> 
+        <h4>Quiz</h4>
+        <p>A handy little quiz with Jquery</p>
+        <a href="https://irivera32.github.io/RealProject12"/>CLICK HERE</a>
+      </div>
+
+
+
+
+
+    
+   </div>
+  </section>
+
+     
+          
+      <section class="item right"> 
+        <div class="item__content">   
+          <h2>About Me</h2>
+          <p>You can find me on <a href="https://www.linkedin.com/in/ilianna-rivera-89007b287/">LinkedIn</a></p>
+        </div>
+      </section>
+      
+
+      
+    
+    <footer class="main">
+      <h2>Contact Me </h2><br><br>
+      
+      <div id="form-submitted-msg">Form successfully submitted!</div>
+      
+        
+       <form id="exampleForm" novalidate>
+        <div class="input-group">
+        <label for="fname" class="form-label">First Name: </label>
+        <input type="text" id="fname" name="firstname" placeholder="First name.." required>
+        <small class="error-msg invalid-feedback">Required</small><br>
+        </div>
+
+        <div class="input-group">
+        <label for="lname" class="form-label">Last Name: </label>
+        <input type="text" id="lname" name="lastname" placeholder="Last name.." required>
+        <small class="error-msg invalid-feedback">Required</small><br>
+        </div>
+
+        <div class="input-group">
+        <label for="email" class="form-label">Email: </label>
+         <input type="email" name="email" id="email" placeholder="Email.." required>
+         <small class="error-msg invalid-feedback">Required</small><br>
+        </div>
+
+         <div class="input-group">
+       <label for="message" class="form-label">Message: </label><br>
+         <textarea id="message" name="message" placeholder="Enter your message.." style="height:200px" maxlength="3000" required></textarea>
+          <small class="error-msg invalid-feedback">Required</small><br>
+          </div>
+
+        <div class="form-btns">
+        <button type="submit" class="btn btn-sm btn-outline-info submit" type="submit" value="Submit">Submit</button>
+        
+      </div>
+      </form>
+
+      
+
+      <p> 
+        
+        <a href="https://facebook.com/ilianna-rivera" target="blank"><img class= "icons" src="media/ftran.png" alt="fbicon"></a>
+        <!--adding map here-->
+        <div id="map" style="width: 600px; height: 400px;"></div> 
+      </p>
+        </footer>
+      </div>
+      <!--map leaflet-->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+     <!--done map leaflet-->
+     
+     <!--javascript here-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="javascript/script.js"></script>
+      
+  </body>
+</html>
+
